@@ -65,9 +65,9 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Stravnika" id="D2859B13-D565-837B-F723-DD125397B6C9">
+<Attribute name="ID_Stravnika" id="F73DF156-F518-1452-3420-6F17442B778F">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:12:54 UTC</createdTime>
+<createdTime>2019-10-31 11:19:41 UTC</createdTime>
 <generatorID>71B90E6F-2A47-348C-8D24-D565F58A214B</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>

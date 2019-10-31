@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FF01BA7-81EB-8BC5-B1CE-3E4FCF532BE4" name="Dodavatel">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<generatorID>3296A196-E53B-04E3-FAB3-A6E06DC78A5F</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Dodavatele" id="E34FB471-8D6D-276D-1833-E1415E7BCEB2">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<generatorID>81FCC5CC-AEF3-A764-64E8-C85AEB530966</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jmeno_Dodavatele" id="7FC82E44-B3C3-A1B3-DF61-9443D81114EE">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<generatorID>001AACC9-0F27-1E88-DF10-3EA1577C1B0F</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIC" id="FFD4FE0E-EA00-4544-D268-6AC0A81549DC">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<generatorID>0655197D-6809-1B63-9BE4-9069273633B5</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60CFA58D-DB87-A6B2-AD1C-CCFAC7F95F4C" name="Dodavatel_PK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<generatorID>8A2254D0-03BC-2FF6-5B83-764B5C9A7212</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E34FB471-8D6D-276D-1833-E1415E7BCEB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

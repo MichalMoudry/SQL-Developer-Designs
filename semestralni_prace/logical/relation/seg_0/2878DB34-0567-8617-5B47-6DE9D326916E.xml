@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nakup_Zbozi" directorySegmentName="seg_0" id="2878DB34-0567-8617-5B47-6DE9D326916E">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:50:24 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<engineerTo>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Zbozi</nameOnSource>
+<nameOnTarget>Nakup</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>537E2C37-0AC6-D8BB-9A2D-7C5354C0A3E0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>253A5903-9327-F375-6C4B-20C80164BF5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

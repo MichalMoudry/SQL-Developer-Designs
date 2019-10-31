@@ -1,21 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nakupuje_na_konto" directorySegmentName="seg_0" id="E20DECD1-1DC6-AFF9-42F3-794A653AF6EC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="40F69D43-393D-ED28-5C30-398BC7A3B52C">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:18:07 UTC</createdTime>
+<createdTime>2019-10-31 11:27:21 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
 </engineerTo>
-<sourcePk>EF66CE3A-5228-E6B3-BF9B-2F10DAD02208</sourcePk>
+<sourcePk>8A2254D0-03BC-2FF6-5B83-764B5C9A7212</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>Nakupujici</nameOnSource>
-<nameOnTarget>Nakup</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>B6D8E588-D451-0AA0-0D1F-FCA7BBF5DE92</sourceEntity>
+<sourceEntity>3296A196-E53B-04E3-FAB3-A6E06DC78A5F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>537E2C37-0AC6-D8BB-9A2D-7C5354C0A3E0</targetEntity>
+<targetEntity>253A5903-9327-F375-6C4B-20C80164BF5D</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

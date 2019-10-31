@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD5A5704-D776-DE10-F5C8-1CF2B4143190" name="Stravnik">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3296A196-E53B-04E3-FAB3-A6E06DC78A5F" name="Dodavatel">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:09:45 UTC</createdTime>
+<createdTime>2019-10-31 11:14:31 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Stravnika" id="93A14DCF-14F0-03A4-85BE-94A764BB8A6A">
+<Attribute name="ID_Dodavatele" id="81FCC5CC-AEF3-A764-64E8-C85AEB530966">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:11:03 UTC</createdTime>
+<createdTime>2019-10-31 11:14:41 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Jmeno" id="757BDDD4-2612-480D-4AAF-1117565B1C94">
+<Attribute name="Jmeno_Dodavatele" id="001AACC9-0F27-1E88-DF10-3EA1577C1B0F">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:11:55 UTC</createdTime>
+<createdTime>2019-10-31 11:15:02 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -39,9 +39,9 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Prijmeni" id="693C344D-4D50-3E5B-1C6B-42DD5AEB8956">
+<Attribute name="DIC" id="0655197D-6809-1B63-9BE4-9069273633B5">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:12:09 UTC</createdTime>
+<createdTime>2019-10-31 11:15:54 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -53,17 +53,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="86D0902E-81A1-8A97-E3AE-FDF23D3D4849" name="Stravnik PK">
+<identifier id="8A2254D0-03BC-2FF6-5B83-764B5C9A7212" name="Dodavatel PK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:11:22 UTC</createdTime>
+<createdTime>2019-10-31 11:14:50 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="false"/>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>93A14DCF-14F0-03A4-85BE-94A764BB8A6A</attributeRef>
+<attributeRef>81FCC5CC-AEF3-A764-64E8-C85AEB530966</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

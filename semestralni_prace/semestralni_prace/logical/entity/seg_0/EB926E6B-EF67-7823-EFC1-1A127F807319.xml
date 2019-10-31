@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD5A5704-D776-DE10-F5C8-1CF2B4143190" name="Stravnik">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB926E6B-EF67-7823-EFC1-1A127F807319" name="Zbozi">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:09:45 UTC</createdTime>
+<createdTime>2019-10-31 10:24:06 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Stravnika" id="93A14DCF-14F0-03A4-85BE-94A764BB8A6A">
+<Attribute name="ID_Zbozi" id="CD624E38-B118-B50F-3E75-740AA25CA77C">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:11:03 UTC</createdTime>
+<createdTime>2019-10-31 10:24:11 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Jmeno" id="757BDDD4-2612-480D-4AAF-1117565B1C94">
+<Attribute name="Nazev_Zbozi" id="0DBE7852-18AB-EA1E-243F-02D45436919E">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:11:55 UTC</createdTime>
+<createdTime>2019-10-31 10:26:23 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -39,31 +39,45 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Prijmeni" id="693C344D-4D50-3E5B-1C6B-42DD5AEB8956">
+<Attribute name="Cena_Zbozi" id="F31ACB7F-57C5-FB0E-CD31-A6092EC905CC">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:12:09 UTC</createdTime>
+<createdTime>2019-10-31 10:26:43 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Typu" id="DE97CB23-812A-A370-9A85-B692D585598F">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:29:07 UTC</createdTime>
+<generatorID>228CA2DE-DE29-F07B-B2E7-689D9243F382</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<engineerTo>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+</engineerTo>
+<referedAttribute>529B5472-2471-6E11-CF84-55AF4C16D11B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="86D0902E-81A1-8A97-E3AE-FDF23D3D4849" name="Stravnik PK">
+<identifier id="564BF424-5B99-F239-55BB-371580CDD1BC" name="Zbozi PK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 10:11:22 UTC</createdTime>
+<createdTime>2019-10-31 10:24:24 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="false"/>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>93A14DCF-14F0-03A4-85BE-94A764BB8A6A</attributeRef>
+<attributeRef>CD624E38-B118-B50F-3E75-740AA25CA77C</attributeRef>
+<attributeRef>DE97CB23-812A-A370-9A85-B692D585598F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

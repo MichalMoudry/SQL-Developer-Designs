@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="71B90E6F-2A47-348C-8D24-D565F58A214B">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vlastni_konto" directorySegmentName="seg_0" id="71B90E6F-2A47-348C-8D24-D565F58A214B">
 <createdBy>MichalMoudry</createdBy>
 <createdTime>2019-10-31 10:12:46 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
@@ -12,11 +12,10 @@
 <nameOnSource>Stravnik</nameOnSource>
 <nameOnTarget>Konto</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B6D8E588-D451-0AA0-0D1F-FCA7BBF5DE92</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>BD5A5704-D776-DE10-F5C8-1CF2B4143190</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
 </Relation>
