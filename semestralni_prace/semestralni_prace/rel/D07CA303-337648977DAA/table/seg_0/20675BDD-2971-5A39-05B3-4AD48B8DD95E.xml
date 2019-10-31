@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20675BDD-2971-5A39-05B3-4AD48B8DD95E" name="Konto">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>B6D8E588-D451-0AA0-0D1F-FCA7BBF5DE92</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Konta" id="EFFDABC4-5330-2896-392C-62F23E76C889">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>44FABCC1-72FB-8C14-F644-AE46DF034C69</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stav_Konta" id="1DD8F43A-FCA4-01A7-9809-E041D7939458">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>7D2F5AE5-89CE-AEE7-8A4E-19767738C350</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Vytvoreni" id="62710A4A-604E-6402-8A8F-55B69273A025">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>4ED95FA8-E206-D966-E26F-5E7A1D0AD046</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Je_Aktivni" id="86D985EF-C265-1C30-2E3E-6ED2AE9F43DE">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>A8728CBD-8725-98A9-2B04-78030F886AB5</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stravnik_ID_Stravnika" id="CB715067-16C8-B8FA-FB49-7C43A1D74817">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>D2859B13-D565-837B-F723-DD125397B6C9</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D82076A-1390-1140-02A2-E779A3713800" referredColumn="58B32171-7DF2-41A2-38CB-EFC739A0ADF5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD06859C-7551-C917-F678-62170FC126CE" name="Konto_PK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>EF66CE3A-5228-E6B3-BF9B-2F10DAD02208</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFFDABC4-5330-2896-392C-62F23E76C889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE5C7800-75E1-5933-4B66-C5A224890DBA" name="Konto__IDX">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>71B90E6F-2A47-348C-8D24-D565F58A214B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CB715067-16C8-B8FA-FB49-7C43A1D74817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33144DB0-B546-D8DB-F448-790B3D3252B0" name="Konto_Stravnik_FK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>71B90E6F-2A47-348C-8D24-D565F58A214B</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB715067-16C8-B8FA-FB49-7C43A1D74817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD14F4F8-359E-696D-7E34-EAD235BCB00A" name="Stravnik">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>BD5A5704-D776-DE10-F5C8-1CF2B4143190</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Stravnika" id="58B32171-7DF2-41A2-38CB-EFC739A0ADF5">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>93A14DCF-14F0-03A4-85BE-94A764BB8A6A</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jmeno" id="1AD8A1BE-F915-9509-CEE5-8673708F6E03">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>757BDDD4-2612-480D-4AAF-1117565B1C94</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prijmeni" id="83790F52-0EF7-FA50-12C0-C10BD00FFBF7">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>693C344D-4D50-3E5B-1C6B-42DD5AEB8956</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9822E618-4B6B-4F7F-0A5E-0AB031556696" name="Stravnik_PK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:14:04 UTC</createdTime>
+<generatorID>86D0902E-81A1-8A97-E3AE-FDF23D3D4849</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58B32171-7DF2-41A2-38CB-EFC739A0ADF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
