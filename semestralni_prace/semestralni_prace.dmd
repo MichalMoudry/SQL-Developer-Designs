@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="semestralni_prace" id="EBDC993C-C8BF-31FA-5079-FCBA6A218125" version="3.5">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-10-31 10:07:07 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EBDC993C-C8BF-31FA-5079-FCBA6A218125</designId>
+</OSDM_Design>
