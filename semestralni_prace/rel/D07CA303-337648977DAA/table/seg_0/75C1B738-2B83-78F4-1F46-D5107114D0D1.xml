@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC6F79C0-636F-D95B-3025-BEEC18031290" name="Konto">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75C1B738-2B83-78F4-1F46-D5107114D0D1" name="Konto">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>B6D8E588-D451-0AA0-0D1F-FCA7BBF5DE92</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Konta" id="4DC4B6C2-1FF1-B4CF-045C-2B981C144B20">
+<Column name="ID_Konta" id="CB3E2BF1-F337-8F59-1FC7-E89A98FE06E4">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>44FABCC1-72FB-8C14-F644-AE46DF034C69</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Stav_Konta" id="4C616442-52E8-D27E-8439-23049E819F45">
+<Column name="Stav_Konta" id="8636DF89-0AA0-5602-1EAB-B9740EE01DBA">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>7D2F5AE5-89CE-AEE7-8A4E-19767738C350</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Vytvoreni" id="B476F2CB-4272-EAB1-FD0E-D177A55A5830">
+<Column name="Datum_Vytvoreni" id="C38A1861-A3F6-5212-0656-496783263FB8">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>4ED95FA8-E206-D966-E26F-5E7A1D0AD046</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Je_Aktivni" id="5346B3A6-530F-1CE3-CDFB-009C3EC408E7">
+<Column name="Je_Aktivni" id="E6D96EBC-0B3C-0794-B376-265A610425BB">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>A8728CBD-8725-98A9-2B04-78030F886AB5</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,9 +54,9 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Stravnik_ID_Stravnika" id="11801DAD-93BA-B1EC-9F40-E7A1FE963DE1">
+<Column name="Stravnik_ID_Stravnika" id="6E754A44-571B-6A86-7459-F62D8CF04CF7">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>F73DF156-F518-1452-3420-6F17442B778F</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,43 +66,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6F308512-9D8F-11A6-1977-D9C72498BF3D" referredColumn="3A21C9FB-71B1-4905-1C2F-F6EBB1AC6422"/>
+<colAssociation fkAssociation="ACBC0D77-FB1D-FDA5-99D5-3EB3C0DA1DF3" referredColumn="C9A4743A-8F97-3E1B-9A28-6F8A5D7E82CC"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0935D6E7-1CB6-C2C4-E96A-E10A0CD8AC65" name="Konto_PK">
+<ind_PK_UK id="EAE6E91D-CBCA-A7D2-B112-AAD980F4B9DF" name="Konto_PK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>EF66CE3A-5228-E6B3-BF9B-2F10DAD02208</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4DC4B6C2-1FF1-B4CF-045C-2B981C144B20"/>
+<colUsage columnID="CB3E2BF1-F337-8F59-1FC7-E89A98FE06E4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FDCEDDA9-D6BA-2671-75A3-2B62E793B34C" name="Konto__IDX">
+<ind_PK_UK id="4FA5F7A4-AB9A-B75B-FF33-361EB103CEA0" name="Konto__IDX">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>71B90E6F-2A47-348C-8D24-D565F58A214B</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="11801DAD-93BA-B1EC-9F40-E7A1FE963DE1"/>
+<colUsage columnID="6E754A44-571B-6A86-7459-F62D8CF04CF7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="58645F8E-AEF3-9EB8-1D50-284F1025D619" name="Konto_Stravnik_FK">
+<ind_PK_UK id="FABA9F93-366F-4786-2228-B9FC41937970" name="Konto_Stravnik_FK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
 <generatorID>71B90E6F-2A47-348C-8D24-D565F58A214B</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="11801DAD-93BA-B1EC-9F40-E7A1FE963DE1"/>
+<colUsage columnID="6E754A44-571B-6A86-7459-F62D8CF04CF7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

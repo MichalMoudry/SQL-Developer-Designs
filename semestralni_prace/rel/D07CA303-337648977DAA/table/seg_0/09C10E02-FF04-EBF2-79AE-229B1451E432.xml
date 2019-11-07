@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCAE316A-28A3-5DBD-4872-85C71D373E41" name="Stravnik">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09C10E02-FF04-EBF2-79AE-229B1451E432" name="Dodavatel">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
-<generatorID>BD5A5704-D776-DE10-F5C8-1CF2B4143190</generatorID>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
+<generatorID>3296A196-E53B-04E3-FAB3-A6E06DC78A5F</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Stravnika" id="3A21C9FB-71B1-4905-1C2F-F6EBB1AC6422">
+<Column name="ID_Dodavatele" id="00AB9D98-69A2-2CCE-F927-F76ADFC8438D">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
-<generatorID>93A14DCF-14F0-03A4-85BE-94A764BB8A6A</generatorID>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
+<generatorID>81FCC5CC-AEF3-A764-64E8-C85AEB530966</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Jmeno" id="62F6F76C-90D0-49CC-01CA-0ED287D32932">
+<Column name="Jmeno_Dodavatele" id="DFD08C6E-22A2-33FA-C5F1-1A591CC751A6">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
-<generatorID>757BDDD4-2612-480D-4AAF-1117565B1C94</generatorID>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
+<generatorID>001AACC9-0F27-1E88-DF10-3EA1577C1B0F</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,10 +30,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prijmeni" id="E1338260-EB33-E22E-2201-A6C190F62699">
+<Column name="DIC" id="E331CF0A-CA45-9B8D-F6D1-C4C19BFADF46">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
-<generatorID>693C344D-4D50-3E5B-1C6B-42DD5AEB8956</generatorID>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
+<generatorID>0655197D-6809-1B63-9BE4-9069273633B5</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,16 +43,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A77AB05E-79E0-5CE0-B9EE-56723527E00A" name="Stravnik_PK">
+<ind_PK_UK id="E6CDAC6B-8377-AD17-F59E-5A84197794D5" name="Dodavatel_PK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:28:00 UTC</createdTime>
-<generatorID>86D0902E-81A1-8A97-E3AE-FDF23D3D4849</generatorID>
+<createdTime>2019-11-07 11:00:57 UTC</createdTime>
+<generatorID>8A2254D0-03BC-2FF6-5B83-764B5C9A7212</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3A21C9FB-71B1-4905-1C2F-F6EBB1AC6422"/>
+<colUsage columnID="00AB9D98-69A2-2CCE-F927-F76ADFC8438D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

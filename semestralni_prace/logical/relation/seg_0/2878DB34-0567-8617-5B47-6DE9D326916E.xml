@@ -17,4 +17,18 @@
 <targetEntity>253A5903-9327-F375-6C4B-20C80164BF5D</targetEntity>
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Mnostvi" id="58F770B5-C73F-04F5-0CCF-79C1DDFA7431">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-11-07 11:00:35 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<engineerTo>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
 </Relation>
