@@ -36,9 +36,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Datum_Vytvoreni" id="4ED95FA8-E206-D966-E26F-5E7A1D0AD046">
 <createdBy>MichalMoudry</createdBy>
@@ -65,10 +64,10 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Stravnika" id="F73DF156-F518-1452-3420-6F17442B778F">
+<Attribute name="ID_Stravnika" id="AA8D6569-918C-9159-9495-FA2AFE511C8F">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-10-31 11:19:41 UTC</createdTime>
-<generatorID>71B90E6F-2A47-348C-8D24-D565F58A214B</generatorID>
+<createdTime>2019-11-07 12:22:28 UTC</createdTime>
+<generatorID>B9193A0B-865B-9ACB-BEEE-0BA9AD71CBE4</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <engineerTo>
 <item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
@@ -85,9 +84,8 @@
 <createdBy>MichalMoudry</createdBy>
 <createdTime>2019-10-31 10:07:47 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="false"/>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

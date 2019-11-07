@@ -57,8 +57,9 @@
 <createdBy>MichalMoudry</createdBy>
 <createdTime>2019-10-31 11:14:50 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

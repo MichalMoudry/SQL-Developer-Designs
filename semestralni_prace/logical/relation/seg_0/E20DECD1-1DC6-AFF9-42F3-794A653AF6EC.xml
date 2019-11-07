@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>EF66CE3A-5228-E6B3-BF9B-2F10DAD02208</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>Nakupujici</nameOnSource>
-<nameOnTarget>Nakup</nameOnTarget>
+<nameOnSource>Nakup</nameOnSource>
+<nameOnTarget>Nakupujici</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

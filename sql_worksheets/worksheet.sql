@@ -1,1 +1,0 @@
-insert into stravnik values ("Test user", "01");
