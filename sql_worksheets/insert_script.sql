@@ -22,3 +22,16 @@ insert into konto values (8, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 7);
 insert into konto values (9, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 8);
 insert into konto values (10, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 9);
 insert into konto values (11, 10000, TO_DATE('1.2.2019', 'DD/MM/YYYY'), 1, 10);
+
+--insert dodavatel--
+insert into dodavatel values (1, 'Dodavatel 01', 'DIC01');
+insert into dodavatel values (2, 'Dodavatel 02', 'DIC02');
+insert into dodavatel values (3, 'Dodavatel 03', 'DIC03');
+
+--insert zbozi--
+insert into zbozi values (1, 'susenka 01', 100, 1);
+insert into zbozi values (2, 'susenka 02', 30, 1);
+insert into zbozi values (3, 'bageta 01', 80, 2);
+insert into zbozi values (4, 'lahev vody', 20, 3);
+
+--insert nakup--
