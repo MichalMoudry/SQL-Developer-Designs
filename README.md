@@ -1,1 +1,1 @@
-# SQL-Developer-Designs
+# Semestral work - database

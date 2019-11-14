@@ -1,37 +1,59 @@
---insert users--
-insert into stravnik values (1, 'Test user', '01');
-insert into stravnik values (2, 'Test user', '02');
-insert into stravnik values (3, 'Test user', '03');
-insert into stravnik values (4, 'Test user', '04');
-insert into stravnik values (5, 'Test user', '05');
-insert into stravnik values (6, 'Test user', '06');
-insert into stravnik values (7, 'Test user', '07');
-insert into stravnik values (8, 'Test user', '08');
-insert into stravnik values (9, 'Test user', '09');
-insert into stravnik values (10, 'Test user', '10');
+--insert stravnici
+INSERT INTO STRAVNIK VALUES (1, 'Michal', 'Moudrý');
+INSERT INTO STRAVNIK VALUES (2, 'Michal', 'Černý');
+INSERT INTO STRAVNIK VALUES (3, 'Jakub', 'Moudrý');
+INSERT INTO STRAVNIK VALUES (4, 'Petr', 'Zbořil');
+INSERT INTO STRAVNIK VALUES (5, 'Tomáš', 'Novotný');
+INSERT INTO STRAVNIK VALUES (6, 'Jan', 'Vejdělek');
+INSERT INTO STRAVNIK VALUES (7, 'Petr', 'Horák');
+INSERT INTO STRAVNIK VALUES (8, 'Jan', 'Malý');
+INSERT INTO STRAVNIK VALUES (9, 'Michael', 'Stárek');
+INSERT INTO STRAVNIK VALUES (10, 'Ondřej', 'Klíma');
 
---insert konta--
-insert into konto values (1, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 1);
-insert into konto values (2, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 1);
-insert into konto values (3, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 2);
-insert into konto values (4, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 3);
-insert into konto values (5, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 4);
-insert into konto values (6, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 5);
-insert into konto values (7, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 6);
-insert into konto values (8, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 7);
-insert into konto values (9, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 8);
-insert into konto values (10, 1000, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 9);
-insert into konto values (11, 10000, TO_DATE('1.2.2019', 'DD/MM/YYYY'), 1, 10);
+--insert konta
+INSERT INTO KONTO VALUES (1, 670, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 1);
+INSERT INTO KONTO VALUES (2, 334, TO_DATE('12.2.2019', 'DD/MM/YYYY'), 1, 1);
+INSERT INTO KONTO VALUES (3, 1227, TO_DATE('13.3.2019', 'DD/MM/YYYY'), 1, 2);
+INSERT INTO KONTO VALUES (4, 60, TO_DATE('21.3.2019', 'DD/MM/YYYY'), 1, 3);
+INSERT INTO KONTO VALUES (5, 200, TO_DATE('11.2.2019', 'DD/MM/YYYY'), 1, 4);
+INSERT INTO KONTO VALUES (6, 1000, TO_DATE('1.2.2019', 'DD/MM/YYYY'), 1, 5);
+INSERT INTO KONTO VALUES (7, 600, TO_DATE('1.2.2019', 'DD/MM/YYYY'), 1, 6);
+INSERT INTO KONTO VALUES (8, 346, TO_DATE('6.3.2019', 'DD/MM/YYYY'), 1, 7);
+INSERT INTO KONTO VALUES (9, 233, TO_DATE('29.3.2019', 'DD/MM/YYYY'), 1, 8);
+INSERT INTO KONTO VALUES (10, 896, TO_DATE('23.1.2019', 'DD/MM/YYYY'), 1, 9);
+INSERT INTO KONTO VALUES (11, 548, TO_DATE('16.2.2019', 'DD/MM/YYYY'), 1, 10);
 
---insert dodavatel--
-insert into dodavatel values (1, 'Dodavatel 01', 'DIC01');
-insert into dodavatel values (2, 'Dodavatel 02', 'DIC02');
-insert into dodavatel values (3, 'Dodavatel 03', 'DIC03');
+--insert dodavatel
+INSERT INTO DODAVATEL VALUES (1, 'Maloobchod - Žabka', 'CZ88675420');
+INSERT INTO DODAVATEL VALUES (2, 'Pekařství - Fridrich', 'CZ09865461');
+INSERT INTO DODAVATEL VALUES (3, 'Obchod - Makro', 'CZ34266719');
 
---insert zbozi--
-insert into zbozi values (1, 'susenka 01', 100, 1);
-insert into zbozi values (2, 'susenka 02', 30, 1);
-insert into zbozi values (3, 'bageta 01', 80, 2);
-insert into zbozi values (4, 'lahev vody', 20, 3);
+--insert zbozi
+INSERT INTO ZBOZI VALUES (1, 'Čokoládová sušenka', 20, 1);
+INSERT INTO ZBOZI VALUES (2, 'Ovocná sušenka', 15, 1);
+INSERT INTO ZBOZI VALUES (3, 'Bageta s kuřecími stripsy', 40, 2);
+INSERT INTO ZBOZI VALUES (4, 'Láhev neperlivé vody', 20, 3);
 
---insert nakup--
+--insert nakup
+INSERT INTO NAKUP VALUES (1, TO_DATE('5.3.2019', 'DD/MM/YYYY'), 1);
+INSERT INTO NAKUP VALUES (2, TO_DATE('8.3.2019', 'DD/MM/YYYY'), 1);
+INSERT INTO NAKUP VALUES (3, TO_DATE('10.3.2019', 'DD/MM/YYYY'), 1);
+INSERT INTO NAKUP VALUES (4, TO_DATE('5.6.2019', 'DD/MM/YYYY'), 2);
+INSERT INTO NAKUP VALUES (5, TO_DATE('5.6.2019', 'DD/MM/YYYY'), 3);
+INSERT INTO NAKUP VALUES (6, TO_DATE('5.6.2019', 'DD/MM/YYYY'), 4);
+INSERT INTO NAKUP VALUES (7, TO_DATE('5.7.2019', 'DD/MM/YYYY'), 5);
+INSERT INTO NAKUP VALUES (8, TO_DATE('5.7.2019', 'DD/MM/YYYY'), 6);
+INSERT INTO NAKUP VALUES (9, TO_DATE('5.2.2019', 'DD/MM/YYYY'), 6);
+INSERT INTO NAKUP VALUES (10, TO_DATE('5.2.2019', 'DD/MM/YYYY'), 7);
+
+--insert nakup_zbozi
+INSERT INTO NAKUP_ZBOZI VALUES (1, 1, 2);
+INSERT INTO NAKUP_ZBOZI VALUES (1, 3, 1);
+INSERT INTO NAKUP_ZBOZI VALUES (1, 2, 2);
+INSERT INTO NAKUP_ZBOZI VALUES (2, 2, 3);
+INSERT INTO NAKUP_ZBOZI VALUES (3, 2, 5);
+INSERT INTO NAKUP_ZBOZI VALUES (4, 3, 1);
+INSERT INTO NAKUP_ZBOZI VALUES (5, 3, 2);
+INSERT INTO NAKUP_ZBOZI VALUES (6, 4, 1);
+INSERT INTO NAKUP_ZBOZI VALUES (6, 3, 1);
+INSERT INTO NAKUP_ZBOZI VALUES (7, 1, 4);
