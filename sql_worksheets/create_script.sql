@@ -52,11 +52,13 @@ ALTER TABLE zbozi ADD CONSTRAINT zbozi_pk PRIMARY KEY ( id_zbozi );
 
 ALTER TABLE konto
     ADD CONSTRAINT konto_stravnik_fk FOREIGN KEY ( stravnik_id_stravnika )
-        REFERENCES stravnik ( id_stravnika );
+        REFERENCES stravnik ( id_stravnika )
+            ON DELETE CASCADE;
 
 ALTER TABLE nakup
     ADD CONSTRAINT nakup_konto_fk FOREIGN KEY ( konto_id_konta )
-        REFERENCES konto ( id_konta );
+        REFERENCES konto ( id_konta )
+            ON DELETE CASCADE;
 
 ALTER TABLE nakup_zbozi
     ADD CONSTRAINT nakup_zbozi_nakup_fk FOREIGN KEY ( nakup_id_nakupu )

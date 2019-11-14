@@ -9,7 +9,7 @@
 <sourcePk>EF66CE3A-5228-E6B3-BF9B-2F10DAD02208</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>Nakup</nameOnSource>
-<nameOnTarget>Nakupujici</nameOnTarget>
+<nameOnTarget>Konto</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
@@ -17,5 +17,5 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>537E2C37-0AC6-D8BB-9A2D-7C5354C0A3E0</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 </Relation>
