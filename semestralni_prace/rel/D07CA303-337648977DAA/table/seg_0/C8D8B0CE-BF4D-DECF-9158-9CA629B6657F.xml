@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FE86C5F-1AD5-32A3-BE89-38F8CF6AB23F" name="Nakup_Zbozi">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8D8B0CE-BF4D-DECF-9158-9CA629B6657F" name="Nakup_Zbozi">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Nakup_ID_Nakupu" id="45389EA9-55B0-1B1D-5442-B0B21107A2F5">
+<Column name="Nakup_ID_Nakupu" id="ADA280C5-1BEF-191E-8E76-36445F2943AE">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +18,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9F1B8CAA-4772-67F2-CD88-9EB65D69721C" referredColumn="83E311B9-791F-AA7A-B2DE-19DC016A7845"/>
+<colAssociation fkAssociation="52FF570E-0F49-DDF0-A4FC-74AC69B36BBA" referredColumn="97D3D8F8-E60C-858D-D9CD-399F3FA75B8F"/>
 </associations>
 </Column>
-<Column name="Zbozi_ID_Zbozi" id="3F14B117-488E-84DD-F661-0E9C5D99FB44">
+<Column name="Zbozi_ID_Zbozi" id="C6168D58-EF58-90F0-AC8E-9834ED6CAEE2">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,12 +32,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6D44BAD3-0BD7-7BB6-A1AE-2C6E58478256" referredColumn="85CEAC7A-333E-A14D-043D-638C179679A8"/>
+<colAssociation fkAssociation="083D9F32-7981-6B7C-9892-5FF631332C99" referredColumn="18278717-8912-AE71-C346-87C47B1239EB"/>
 </associations>
 </Column>
-<Column name="Mnostvi" id="36B4DCBB-4AEE-A88F-4EBE-D71ED94BBFE3">
+<Column name="Mnostvi" id="42F05E92-6B17-1622-EDAE-115443501064">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>58F770B5-C73F-04F5-0CCF-79C1DDFA7431</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,38 +50,38 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4800A277-180A-6CB8-2B52-2B86C37EEDC6" name="Nakup_Zbozi_PK">
+<ind_PK_UK id="981F4F2F-594E-C859-B6A2-253D22271EAD" name="Nakup_Zbozi_PK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="45389EA9-55B0-1B1D-5442-B0B21107A2F5"/>
-<colUsage columnID="3F14B117-488E-84DD-F661-0E9C5D99FB44"/>
+<colUsage columnID="ADA280C5-1BEF-191E-8E76-36445F2943AE"/>
+<colUsage columnID="C6168D58-EF58-90F0-AC8E-9834ED6CAEE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2CB6168C-50D2-3C4E-5579-6D935C4785D1" name="Nakup_Zbozi_Nakup_FK">
+<ind_PK_UK id="CFF4089E-7032-AC6D-F3C6-C0CC8C081FC6" name="Nakup_Zbozi_Nakup_FK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>2878DB34-0567-8617-5B47-6DE9D326916E</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="45389EA9-55B0-1B1D-5442-B0B21107A2F5"/>
+<colUsage columnID="ADA280C5-1BEF-191E-8E76-36445F2943AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="717E06E8-397C-F79C-A489-B03E7BC1E77F" name="Nakup_Zbozi_Zbozi_FK">
+<ind_PK_UK id="E819B6BD-4D06-3054-B3F0-9231CB50CAC4" name="Nakup_Zbozi_Zbozi_FK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>2878DB34-0567-8617-5B47-6DE9D326916E</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3F14B117-488E-84DD-F661-0E9C5D99FB44"/>
+<colUsage columnID="C6168D58-EF58-90F0-AC8E-9834ED6CAEE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

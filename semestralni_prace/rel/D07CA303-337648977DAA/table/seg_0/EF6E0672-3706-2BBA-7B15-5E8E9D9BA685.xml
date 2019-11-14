@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2620008-3564-0A33-9E27-C4D62A7E6AC0" name="Nakup">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF6E0672-3706-2BBA-7B15-5E8E9D9BA685" name="Nakup">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>537E2C37-0AC6-D8BB-9A2D-7C5354C0A3E0</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Nakupu" id="83E311B9-791F-AA7A-B2DE-19DC016A7845">
+<Column name="ID_Nakupu" id="97D3D8F8-E60C-858D-D9CD-399F3FA75B8F">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>F1487C52-862C-F37C-9220-973D10D6D51C</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Nakupu" id="E9CBD9A2-AB51-C3DD-0D1E-3AA767164C6A">
+<Column name="Datum_Nakupu" id="F33EF5C4-D440-A18F-674D-8D591DD051D9">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>AAE317C5-11CC-6910-1D7D-0B3C34686229</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konto_ID_Konta" id="A8400A7B-38F9-88B2-F754-3F36BB204046">
+<Column name="Konto_ID_Konta" id="5EB457A8-46B4-EE6C-9561-A602AC45403B">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>5DC2FE51-A538-544F-7FF8-464A645C8A9A</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,32 +42,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7DF69BB3-96AA-2141-84C6-58267B773A54" referredColumn="9662B26E-3964-4EF9-7086-832D6F92B2AC"/>
+<colAssociation fkAssociation="0F3F95EE-4F4A-AFBF-8D83-DAF0853FCFA6" referredColumn="BF03921E-A03B-789A-7AAB-2E55AC20EE39"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="65981AA0-26B8-53C1-A3D8-15BCAA48D097" name="Nakup_PK">
+<ind_PK_UK id="80CA635E-5677-529E-46CB-B024F8F6721E" name="Nakup_PK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>A31ED1FB-B340-939C-B2D9-D503DEB8FC5C</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="83E311B9-791F-AA7A-B2DE-19DC016A7845"/>
+<colUsage columnID="97D3D8F8-E60C-858D-D9CD-399F3FA75B8F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="86D3BB48-C8D8-E584-E212-8F36C61EB3CD" name="Nakup_Konto_FK">
+<ind_PK_UK id="4D083509-A79B-3010-12BA-545F1D4A1D91" name="Nakup_Konto_FK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-11-07 12:59:00 UTC</createdTime>
+<createdTime>2019-11-14 10:25:11 UTC</createdTime>
 <generatorID>E20DECD1-1DC6-AFF9-42F3-794A653AF6EC</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A8400A7B-38F9-88B2-F754-3F36BB204046"/>
+<colUsage columnID="5EB457A8-46B4-EE6C-9561-A602AC45403B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
