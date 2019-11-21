@@ -45,7 +45,7 @@ CREATE TABLE zbozi (
     id_zbozi                  INTEGER NOT NULL,
     nazev_zbozi               VARCHAR2(4000) NOT NULL,
     cena_zbozi                INTEGER NOT NULL,
-    dodavatel_id_dodavatele   INTEGER NOT NULL
+    dodavatel_id_dodavatele   INTEGER NULL
 );
 
 ALTER TABLE zbozi ADD CONSTRAINT zbozi_pk PRIMARY KEY ( id_zbozi );
@@ -72,4 +72,5 @@ ALTER TABLE nakup_zbozi
 
 ALTER TABLE zbozi
     ADD CONSTRAINT zbozi_dodavatel_fk FOREIGN KEY ( dodavatel_id_dodavatele )
-        REFERENCES dodavatel ( id_dodavatele );
+        REFERENCES dodavatel ( id_dodavatele )
+            ON DELETE SET NULL;
