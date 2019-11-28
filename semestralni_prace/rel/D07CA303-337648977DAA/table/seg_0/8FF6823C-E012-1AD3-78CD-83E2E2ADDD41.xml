@@ -85,4 +85,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Mnozstvi" directorySegmentName="seg_0" id="C323911A-952D-8760-0FE4-DDFD5A23B4A4">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-11-28 10:10:17 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<rule><![CDATA[Mnostvi > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

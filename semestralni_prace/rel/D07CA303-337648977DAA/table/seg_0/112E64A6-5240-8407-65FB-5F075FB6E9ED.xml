@@ -82,4 +82,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Cena" directorySegmentName="seg_0" id="5B0A0774-C69D-CA5E-D261-A7ACAFF0E560">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-11-28 10:11:45 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<rule><![CDATA[Cena_Zbozi > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

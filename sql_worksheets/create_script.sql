@@ -30,6 +30,8 @@ CREATE TABLE nakup_zbozi (
     mnostvi           INTEGER NOT NULL
 );
 
+ALTER TABLE nakup_zbozi ADD CONSTRAINT mnozstvi CHECK ( mnozstvi > 0 );
+
 ALTER TABLE nakup_zbozi ADD CONSTRAINT nakup_zbozi_pk PRIMARY KEY ( nakup_id_nakupu,
                                                                     zbozi_id_zbozi );
 
@@ -47,6 +49,8 @@ CREATE TABLE zbozi (
     cena_zbozi                INTEGER NOT NULL,
     dodavatel_id_dodavatele   INTEGER NULL
 );
+
+ALTER TABLE zbozi ADD CONSTRAINT cena CHECK ( cena_zbozi > 0 );
 
 ALTER TABLE zbozi ADD CONSTRAINT zbozi_pk PRIMARY KEY ( id_zbozi );
 
