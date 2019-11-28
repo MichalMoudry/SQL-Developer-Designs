@@ -90,7 +90,7 @@
 <createdBy>MichalMoudry</createdBy>
 <createdTime>2019-11-28 10:10:17 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>
-<rule><![CDATA[Mnostvi > 0]]></rule>
+<rule><![CDATA[Mnozstvi > 0]]></rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>
