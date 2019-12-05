@@ -51,6 +51,18 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Email" id="4482E8D1-D37D-6847-C23B-171C3AB86E43">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-05 10:09:53 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<engineerTo>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="86D0902E-81A1-8A97-E3AE-FDF23D3D4849" name="Stravnik PK">

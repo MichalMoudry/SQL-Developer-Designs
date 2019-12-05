@@ -18,7 +18,7 @@
 <transferable>true</transferable>
 <deleteRule>CASCADE</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<attribute name="Mnostvi" id="58F770B5-C73F-04F5-0CCF-79C1DDFA7431">
+<attribute name="Mnozstvi" id="58F770B5-C73F-04F5-0CCF-79C1DDFA7431">
 <createdBy>MichalMoudry</createdBy>
 <createdTime>2019-11-07 11:00:35 UTC</createdTime>
 <ownerDesignName>semestralni_prace</ownerDesignName>

@@ -6,6 +6,8 @@ CREATE TABLE dodavatel (
 
 ALTER TABLE dodavatel ADD CONSTRAINT dodavatel_pk PRIMARY KEY ( id_dodavatele );
 
+ALTER TABLE dodavatel ADD CONSTRAINT dodavatel__un UNIQUE ( dic );
+
 CREATE TABLE konto (
     id_konta                INTEGER NOT NULL,
     stav_konta              INTEGER NOT NULL,
@@ -27,8 +29,10 @@ ALTER TABLE nakup ADD CONSTRAINT nakup_pk PRIMARY KEY ( id_nakupu );
 CREATE TABLE nakup_zbozi (
     nakup_id_nakupu   INTEGER NOT NULL,
     zbozi_id_zbozi    INTEGER NOT NULL,
-    mnostvi           INTEGER NOT NULL
+    mnozstvi          INTEGER NOT NULL
 );
+
+ALTER TABLE nakup_zbozi ADD CONSTRAINT mnozstvi CHECK ( mnozstvi > 0 );
 
 ALTER TABLE nakup_zbozi ADD CONSTRAINT nakup_zbozi_pk PRIMARY KEY ( nakup_id_nakupu,
                                                                     zbozi_id_zbozi );
@@ -36,19 +40,27 @@ ALTER TABLE nakup_zbozi ADD CONSTRAINT nakup_zbozi_pk PRIMARY KEY ( nakup_id_nak
 CREATE TABLE stravnik (
     id_stravnika   INTEGER NOT NULL,
     jmeno          VARCHAR2(4000) NOT NULL,
-    prijmeni       VARCHAR2(4000) NOT NULL
+    prijmeni       VARCHAR2(4000) NOT NULL,
+    email          VARCHAR2(4000) NOT NULL
 );
 
 ALTER TABLE stravnik ADD CONSTRAINT stravnik_pk PRIMARY KEY ( id_stravnika );
+
+ALTER TABLE stravnik ADD CONSTRAINT stravnik__un UNIQUE ( email );
 
 CREATE TABLE zbozi (
     id_zbozi                  INTEGER NOT NULL,
     nazev_zbozi               VARCHAR2(4000) NOT NULL,
     cena_zbozi                INTEGER NOT NULL,
-    dodavatel_id_dodavatele   INTEGER NULL
+    dodavatel_id_dodavatele   INTEGER NULL,
+    kod_zbozi                 VARCHAR2(4000) NOT NULL
 );
 
 ALTER TABLE zbozi ADD CONSTRAINT zbozi_pk PRIMARY KEY ( id_zbozi );
+
+ALTER TABLE zbozi ADD CONSTRAINT zbozi__un UNIQUE ( kod_zbozi );
+
+ALTER TABLE zbozi ADD CONSTRAINT cena CHECK ( cena_zbozi > 0 );
 
 ALTER TABLE konto
     ADD CONSTRAINT konto_stravnik_fk FOREIGN KEY ( stravnik_id_stravnika )

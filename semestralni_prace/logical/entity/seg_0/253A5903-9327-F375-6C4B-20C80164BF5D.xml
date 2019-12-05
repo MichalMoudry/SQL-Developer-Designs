@@ -65,6 +65,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Kod_Zbozi" id="DCC50042-FA55-FF17-2EAE-543DE0085B0D">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-05 10:10:23 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<engineerTo>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5E63DA1B-8A33-E375-14EE-361E6F641495" name="Zbozi PK">
