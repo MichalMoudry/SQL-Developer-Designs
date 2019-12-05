@@ -1,14 +1,14 @@
 --insert stravnici
-INSERT INTO STRAVNIK VALUES (1, 'Michal', 'Moudrý');
-INSERT INTO STRAVNIK VALUES (2, 'Michal', 'Černý');
-INSERT INTO STRAVNIK VALUES (3, 'Jakub', 'Moudrý');
-INSERT INTO STRAVNIK VALUES (4, 'Petr', 'Zbořil');
-INSERT INTO STRAVNIK VALUES (5, 'Tomáš', 'Novotný');
-INSERT INTO STRAVNIK VALUES (6, 'Jan', 'Vejdělek');
-INSERT INTO STRAVNIK VALUES (7, 'Petr', 'Horák');
-INSERT INTO STRAVNIK VALUES (8, 'Jan', 'Malý');
-INSERT INTO STRAVNIK VALUES (9, 'Michael', 'Stárek');
-INSERT INTO STRAVNIK VALUES (10, 'Ondřej', 'Klíma');
+INSERT INTO STRAVNIK VALUES (1, 'Michal', 'Moudrý', 'moum02@vse.cz');
+INSERT INTO STRAVNIK VALUES (2, 'Michal', 'Černý', 'cerny.michal@gmail.com');
+INSERT INTO STRAVNIK VALUES (3, 'Jakub', 'Moudrý', 'jakub.moudry@seznam.cz');
+INSERT INTO STRAVNIK VALUES (4, 'Petr', 'Zbořil', 'zborilPetr@outlook.com');
+INSERT INTO STRAVNIK VALUES (5, 'Tomáš', 'Novotný', 'novotny.tomas2@gmail.com');
+INSERT INTO STRAVNIK VALUES (6, 'Jan', 'Vejdělek', 'jan.veldelek33@seznam.cz');
+INSERT INTO STRAVNIK VALUES (7, 'Petr', 'Horák', 'PetrHor@outlook.com');
+INSERT INTO STRAVNIK VALUES (8, 'Jan', 'Malý', 'malyja14@sps-prosek.cz');
+INSERT INTO STRAVNIK VALUES (9, 'Michael', 'Stárek', 'mstarek@gmail.com');
+INSERT INTO STRAVNIK VALUES (10, 'Ondřej', 'Klíma', 'oklima@seznam.cz');
 
 --insert konta
 INSERT INTO KONTO VALUES (1, 670, TO_DATE('1.1.2019', 'DD/MM/YYYY'), 1, 1);
@@ -29,10 +29,10 @@ INSERT INTO DODAVATEL VALUES (2, 'Pekařství - Fridrich', 'CZ09865461');
 INSERT INTO DODAVATEL VALUES (3, 'Obchod - Makro', 'CZ34266719');
 
 --insert zbozi
-INSERT INTO ZBOZI VALUES (1, 'Čokoládová sušenka', 20, 1);
-INSERT INTO ZBOZI VALUES (2, 'Ovocná sušenka', 15, 1);
-INSERT INTO ZBOZI VALUES (3, 'Bageta s kuřecími stripsy', 40, 2);
-INSERT INTO ZBOZI VALUES (4, 'Láhev neperlivé vody', 20, 3);
+INSERT INTO ZBOZI VALUES (1, 'Čokoládová sušenka', 20, 1, '#FEJ34JWS8');
+INSERT INTO ZBOZI VALUES (2, 'Ovocná sušenka', 15, 1, '#RTJ49S7DKG');
+INSERT INTO ZBOZI VALUES (3, 'Bageta s kuřecími stripsy', 40, 2, '#EOR4003');
+INSERT INTO ZBOZI VALUES (4, 'Láhev neperlivé vody', 20, 3, 'TRK39ZDSK');
 
 --insert nakup
 INSERT INTO NAKUP VALUES (1, TO_DATE('5.3.2019', 'DD/MM/YYYY'), 1);
