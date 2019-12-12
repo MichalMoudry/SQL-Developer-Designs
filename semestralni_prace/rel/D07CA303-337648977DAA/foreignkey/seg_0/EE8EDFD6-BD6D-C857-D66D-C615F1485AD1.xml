@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE8EDFD6-BD6D-C857-D66D-C615F1485AD1" containerWithKeyObject="05C4233A-A0AB-5ADC-5EF8-99CB795C4A17" localFKIndex="DD667917-AB64-8D26-7787-58C3885F7AB4" name="Nakup_Zbozi_Nakup_FK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>2878DB34-0567-8617-5B47-6DE9D326916E</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<referredTableLongName>Nakup</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>BDCFAAB9-67A0-B375-2B5C-732EFFAEC314</referredTableID>
+<keyObject>33DD2DAE-5293-B354-FC4A-26EA76B6F9EB</keyObject>
+<referredKeyID>33DD2DAE-5293-B354-FC4A-26EA76B6F9EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Nakupu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

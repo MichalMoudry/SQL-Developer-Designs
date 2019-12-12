@@ -53,6 +53,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Kod_Nakupu" id="C2B02B4E-3DAB-EAC4-E316-BF220154CDB3">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:47:54 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<engineerTo>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A31ED1FB-B340-939C-B2D9-D503DEB8FC5C" name="Nakup PK">

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A74E555-11D4-8B4E-2557-0B2BF358C7CC" name="Nakup">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDCFAAB9-67A0-B375-2B5C-732EFFAEC314" name="Nakup">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-12-05 10:13:09 UTC</createdTime>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
 <generatorID>537E2C37-0AC6-D8BB-9A2D-7C5354C0A3E0</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Nakupu" id="61705286-A067-CCF8-E475-42DD05748AFE">
+<Column name="ID_Nakupu" id="171CCEED-F6CE-623C-FDFB-FF78DFFA4193">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-12-05 10:13:09 UTC</createdTime>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
 <generatorID>F1487C52-862C-F37C-9220-973D10D6D51C</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum_Nakupu" id="0F752410-B37E-1E9F-2D1C-A1D7C84E94A7">
+<Column name="Datum_Nakupu" id="4E9DDE62-7F25-EE94-01D6-AC24A44984D0">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-12-05 10:13:09 UTC</createdTime>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
 <generatorID>AAE317C5-11CC-6910-1D7D-0B3C34686229</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Konto_ID_Konta" id="DAEE1D21-BD37-F942-4EB9-9F1B3370B38E">
+<Column name="Konto_ID_Konta" id="29C97AE8-3863-4801-99B0-C4C153BC8C32">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-12-05 10:13:09 UTC</createdTime>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
 <generatorID>5DC2FE51-A538-544F-7FF8-464A645C8A9A</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,32 +42,53 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B5958620-2438-2BF6-0C39-CD3183D076C8" referredColumn="97722B17-78F3-E657-C8DE-F904EA4C0EF9"/>
+<colAssociation fkAssociation="84EE403F-B272-966D-B0C3-957A52A8843A" referredColumn="88D95D41-B0D7-E86C-92AD-4C8090F58B3F"/>
 </associations>
+</Column>
+<Column name="Kod_Nakupu" id="D1A90647-E55B-5BD0-CDC6-84543077A7F3">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>C2B02B4E-3DAB-EAC4-E316-BF220154CDB3</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="94F33470-97B9-4752-9587-751B2D0840D9" name="Nakup_PK">
+<ind_PK_UK id="33DD2DAE-5293-B354-FC4A-26EA76B6F9EB" name="Nakup_PK">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-12-05 10:13:09 UTC</createdTime>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
 <generatorID>A31ED1FB-B340-939C-B2D9-D503DEB8FC5C</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="61705286-A067-CCF8-E475-42DD05748AFE"/>
+<colUsage columnID="171CCEED-F6CE-623C-FDFB-FF78DFFA4193"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6901AB66-DD65-4D75-8121-9B8C231C1511" name="Nakup_Konto_FK">
+<ind_PK_UK id="34C06A06-79AC-CC09-5386-EDFEE45A991A" name="Nakup__UN">
 <createdBy>MichalMoudry</createdBy>
-<createdTime>2019-12-05 10:13:09 UTC</createdTime>
+<createdTime>2019-12-12 10:49:05 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1A90647-E55B-5BD0-CDC6-84543077A7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE5329C8-BB26-DE0C-F161-28F0E7880EF0" name="Nakup_Konto_FK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
 <generatorID>E20DECD1-1DC6-AFF9-42F3-794A653AF6EC</generatorID>
 <ownerDesignName>semestralni_prace</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DAEE1D21-BD37-F942-4EB9-9F1B3370B38E"/>
+<colUsage columnID="29C97AE8-3863-4801-99B0-C4C153BC8C32"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

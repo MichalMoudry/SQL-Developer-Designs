@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B0E98C2-0B11-739E-D44C-DCCEC147A8ED" name="Zbozi">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>253A5903-9327-F375-6C4B-20C80164BF5D</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zbozi" id="D23A2DF4-05DA-5FF6-E985-C415650C083D">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>74CDC1DC-BEBF-9840-62BC-0D805D3802C2</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazev_Zbozi" id="CA90B840-ADE5-2415-9C85-965118F5B5A2">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>73E26367-DFC9-1062-81B0-8F0E22AAA586</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena_Zbozi" id="937B3AF0-4927-CE01-A18A-D81306C611B1">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>07FFA416-80D3-DAA1-B4A5-894FC68A80E4</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dodavatel_ID_Dodavatele" id="40D9A52D-F4EB-84C0-1C18-7B730BC79F92">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>AEE7757D-8F02-6019-FE04-ED86AF61FB82</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1435B675-C275-AD8C-484F-AEC57F885955" referredColumn="776E451E-B485-BE14-9503-B40F01220C52"/>
+</associations>
+</Column>
+<Column name="Kod_Zbozi" id="C8192DCB-0C76-CD2E-11AF-90F4576E262C">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>DCC50042-FA55-FF17-2EAE-543DE0085B0D</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF6AE435-AA32-D007-38DE-E66EF27F5178" name="Zbozi_PK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>5E63DA1B-8A33-E375-14EE-361E6F641495</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D23A2DF4-05DA-5FF6-E985-C415650C083D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF098734-19A2-3E02-12F0-419F222EFEE2" name="Zbozi__UN">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:50:23 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8192DCB-0C76-CD2E-11AF-90F4576E262C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86847643-657E-734D-5991-E0E231BDE04D" name="Zbozi_Dodavatel_FK">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:49 UTC</createdTime>
+<generatorID>40F69D43-393D-ED28-5C30-398BC7A3B52C</generatorID>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40D9A52D-F4EB-84C0-1C18-7B730BC79F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Zbozi_CK_1" directorySegmentName="seg_0" id="D7ABB2B9-C5B1-1EEF-AA2A-74B3769B6B9F">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 11:23:47 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<rule><![CDATA[cena_zbozi > 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

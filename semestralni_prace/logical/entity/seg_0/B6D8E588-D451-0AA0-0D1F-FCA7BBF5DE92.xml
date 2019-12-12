@@ -78,6 +78,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Kod_Konta" id="D7173158-2E24-DEB7-B064-6FF4967072ED">
+<createdBy>MichalMoudry</createdBy>
+<createdTime>2019-12-12 10:48:33 UTC</createdTime>
+<ownerDesignName>semestralni_prace</ownerDesignName>
+<engineerTo>
+<item key="D07CA303-26AE-EA59-4D98-337648977DAA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="EF66CE3A-5228-E6B3-BF9B-2F10DAD02208" name="Konto PK">

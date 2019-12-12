@@ -13,18 +13,24 @@ CREATE TABLE konto (
     stav_konta              INTEGER NOT NULL,
     datum_vytvoreni         DATE NOT NULL,
     je_aktivni              CHAR(1) NOT NULL,
-    stravnik_id_stravnika   INTEGER NOT NULL
+    stravnik_id_stravnika   INTEGER NOT NULL,
+    kod_konta               VARCHAR2(4000) NOT NULL
 );
 
 ALTER TABLE konto ADD CONSTRAINT konto_pk PRIMARY KEY ( id_konta );
 
+ALTER TABLE konto ADD CONSTRAINT konto__un UNIQUE ( kod_konta );
+
 CREATE TABLE nakup (
     id_nakupu        INTEGER NOT NULL,
     datum_nakupu     DATE NOT NULL,
-    konto_id_konta   INTEGER NOT NULL
+    konto_id_konta   INTEGER NOT NULL,
+    kod_nakupu       VARCHAR2(4000) NOT NULL
 );
 
 ALTER TABLE nakup ADD CONSTRAINT nakup_pk PRIMARY KEY ( id_nakupu );
+
+ALTER TABLE nakup ADD CONSTRAINT nakup__un UNIQUE ( kod_nakupu );
 
 CREATE TABLE nakup_zbozi (
     nakup_id_nakupu   INTEGER NOT NULL,
