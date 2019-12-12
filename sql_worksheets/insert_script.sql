@@ -32,7 +32,7 @@ INSERT INTO DODAVATEL VALUES (3, 'Obchod - Makro', 'CZ34266719');
 INSERT INTO ZBOZI VALUES (1, 'Čokoládová sušenka', 20, 1, '#FEJ34JWS8');
 INSERT INTO ZBOZI VALUES (2, 'Ovocná sušenka', 15, 1, '#RTJ49S7DKG');
 INSERT INTO ZBOZI VALUES (3, 'Bageta s kuřecími stripsy', 40, 2, '#EOR4003');
-INSERT INTO ZBOZI VALUES (4, 'Láhev neperlivé vody', 20, 3, 'TRK39ZDSK');
+INSERT INTO ZBOZI VALUES (4, 'Láhev neperlivé vody', 20, 3, '#TRK39ZDSK');
 
 --insert nakup
 INSERT INTO NAKUP VALUES (1, TO_DATE('5.3.2019', 'DD/MM/YYYY'), 1);
